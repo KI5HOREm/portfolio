@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: bisque;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+#navbar{ 
+    display: flex;
+    justify-content: space-between ;
+   
+}
+.navlists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: blue;
+}
+.navlinks li{
+margin: 10px;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.home_left{
+    width: 50%;
+
+}
+.home_right{
+    width: 50%;
+    text-align: center;
+    
+}
+.bca{
+    font-size: 80px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 114px;
+}
+.hi{
+    font-size: 28px;
+    color: darkblue;
+}
+.resume{
+    color: black;
+
+}
+.about{
+    width: 70%;
+
+
+}
+.h2{
+    color: brown;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 114px;
+    margin-bottom: 20px;
+
+}
+.about-exp{
+    padding-left: 200px;
+    margin-top: 100px;
+    color: black;
+     
+}
+.about-exp li{
+    margin-top: 20px;
+}
+.skill{ 
+    color: brown;
+    font-size: 30px;
+    
+
+}
+.skill-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-item{
+    border: burlywood solid 2px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+ 
